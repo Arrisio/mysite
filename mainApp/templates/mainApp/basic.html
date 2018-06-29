@@ -1,0 +1,9 @@
+{% extends "mainApp/wrapper.html" %}
+
+{% block content %}
+    {% for val in valuses %}
+{#        {% if val == 'Привет' %}#}
+        <p>{{ val }}</p>
+{#        <p> File basic.html inside_block </p>#}
+    {% endfor %}
+{% endblock %}
